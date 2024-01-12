@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  form {
+    border: 1px solid rgb(51, 156, 170);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: -5px -5px 10px 0px rgba(7, 12, 32, 0.1);
+    width: 600px;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  .button1 {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgb(62, 185, 62);
+  
+  }
+  #div{
+    display: flex;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  #divButton{
+    margin-top: 18px; 
+  }
+  #divAlert {
+    font-size: small;
+    color: #fdfbfb;
+    background-color: red;
+    width: 180px;
+    height: 70px;
+    padding: 8px;
+    margin-bottom: 8px;
+    margin-left: 40px;
+    box-sizing: content-box;
+    opacity: 0;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    opacity: 0;
+  }
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    background-color: rgb(198, 194, 194);
+  }
